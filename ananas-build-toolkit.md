@@ -8,7 +8,7 @@
 
 ## Configuration 
 
-Si on a un profil du même nom que l'utilisateur linux 
+Si il y a un profile avec le même nom que l'utilisateur linux
 
 ```
 ant configure build 
