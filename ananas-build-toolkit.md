@@ -1,22 +1,24 @@
-Ananas Build Toolkit 
-====================
+# Ananas Build Toolkit 
 
-Installation des dépendances
-----------------------------
+## Installation des dépendances
 
+```
 ./composer.phar install --prefer-dist
+```
 
-Configuration 
--------------
-Si il y a profile de configuration avec le même nom que l'user dans linux :
+## Configuration 
 
+Si on a profil du même nom le nom d'utilisateur linux 
+
+```
 ant configure build 
+```
 
-Déploiement des sites
----------------------
+## Déploiement des sites
 
-- En production 
+ ### En production 
 
+```
 ant deploy -D profile=jeroboam 
-
+```
 
