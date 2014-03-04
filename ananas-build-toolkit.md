@@ -8,7 +8,7 @@
 
 ## Configuration 
 
-Si on a profil du même nom le nom d'utilisateur linux 
+Si on a un profil du même nom que l'utilisateur linux 
 
 ```
 ant configure build 
@@ -16,7 +16,7 @@ ant configure build
 
 ## Déploiement des sites
 
- ### En production 
+### En production 
 
 ```
 ant deploy -D profile=jeroboam 
